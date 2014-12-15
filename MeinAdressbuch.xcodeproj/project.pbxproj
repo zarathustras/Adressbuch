@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B01641DE1A3D58C5009FF643 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B01641DD1A3D58C5009FF643 /* main.c */; };
+		B01641E71A3D5AB9009FF643 /* Adressbuch.c in Sources */ = {isa = PBXBuildFile; fileRef = B01641E51A3D5AB9009FF643 /* Adressbuch.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +24,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B01641DA1A3D58C5009FF643 /* Adressbuch */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Adressbuch; sourceTree = BUILT_PRODUCTS_DIR; };
+		B01641DA1A3D58C5009FF643 /* MeinAdressbuch */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MeinAdressbuch; sourceTree = BUILT_PRODUCTS_DIR; };
 		B01641DD1A3D58C5009FF643 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		B01641E51A3D5AB9009FF643 /* Adressbuch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Adressbuch.c; sourceTree = SOURCE_ROOT; };
+		B01641E61A3D5AB9009FF643 /* Adressbuch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Adressbuch.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +52,7 @@
 		B01641DB1A3D58C5009FF643 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B01641DA1A3D58C5009FF643 /* Adressbuch */,
+				B01641DA1A3D58C5009FF643 /* MeinAdressbuch */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,6 +60,8 @@
 		B01641DC1A3D58C5009FF643 /* Adressbuch */ = {
 			isa = PBXGroup;
 			children = (
+				B01641E51A3D5AB9009FF643 /* Adressbuch.c */,
+				B01641E61A3D5AB9009FF643 /* Adressbuch.h */,
 				B01641DD1A3D58C5009FF643 /* main.c */,
 			);
 			path = Adressbuch;
@@ -65,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B01641D91A3D58C5009FF643 /* Adressbuch */ = {
+		B01641D91A3D58C5009FF643 /* MeinAdressbuch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B01641E11A3D58C5009FF643 /* Build configuration list for PBXNativeTarget "Adressbuch" */;
+			buildConfigurationList = B01641E11A3D58C5009FF643 /* Build configuration list for PBXNativeTarget "MeinAdressbuch" */;
 			buildPhases = (
 				B01641D61A3D58C5009FF643 /* Sources */,
 				B01641D71A3D58C5009FF643 /* Frameworks */,
@@ -77,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = Adressbuch;
+			name = MeinAdressbuch;
 			productName = Adressbuch;
-			productReference = B01641DA1A3D58C5009FF643 /* Adressbuch */;
+			productReference = B01641DA1A3D58C5009FF643 /* MeinAdressbuch */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B01641D51A3D58C5009FF643 /* Build configuration list for PBXProject "Adressbuch" */;
+			buildConfigurationList = B01641D51A3D58C5009FF643 /* Build configuration list for PBXProject "MeinAdressbuch" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -108,7 +113,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B01641D91A3D58C5009FF643 /* Adressbuch */,
+				B01641D91A3D58C5009FF643 /* MeinAdressbuch */,
 			);
 		};
 /* End PBXProject section */
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B01641DE1A3D58C5009FF643 /* main.c in Sources */,
+				B01641E71A3D5AB9009FF643 /* Adressbuch.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,21 +208,21 @@
 		B01641E21A3D58C5009FF643 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MeinAdressbuch;
 			};
 			name = Debug;
 		};
 		B01641E31A3D58C5009FF643 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MeinAdressbuch;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B01641D51A3D58C5009FF643 /* Build configuration list for PBXProject "Adressbuch" */ = {
+		B01641D51A3D58C5009FF643 /* Build configuration list for PBXProject "MeinAdressbuch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B01641DF1A3D58C5009FF643 /* Debug */,
@@ -225,13 +231,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B01641E11A3D58C5009FF643 /* Build configuration list for PBXNativeTarget "Adressbuch" */ = {
+		B01641E11A3D58C5009FF643 /* Build configuration list for PBXNativeTarget "MeinAdressbuch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B01641E21A3D58C5009FF643 /* Debug */,
 				B01641E31A3D58C5009FF643 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
